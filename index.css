@@ -52,8 +52,6 @@ main section:last-of-type{
     border-bottom: none;
 }
 
-
-
 section h1{
     font-family: "Spirax", sans-serif;
     font-size: 7.5rem;
@@ -96,7 +94,7 @@ main section .menu-container{
 }
 
 
-section .price-menu{
+section .price-menu, section .contact{
     width: 80%;
     color: white;
     background-color: rgba(0, 0, 0, 0.637);
@@ -105,12 +103,12 @@ section .price-menu{
     box-sizing: border-box;
 }
 
-.price-menu .price-item{
+.price-menu .price-item, .contact .contact-item{
     display: flex;
     justify-content: space-between;
 }
 
-.price-item p{
+.price-item p, .contact-item p{
     font-size: 1.25rem;
     padding: 0;
     margin: 0;
